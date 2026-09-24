@@ -1,0 +1,19 @@
+INSPIRE WRAPPER V2 — UPDATE EXISTING GITHUB REPO
+
+1. Extract this ZIP.
+2. In your existing INSPIRE-2.0 repo, replace:
+   - index.html
+   - manifest.webmanifest
+   - service-worker.js
+   - .nojekyll
+   - icons folder
+3. Delete old offline.html (optional).
+4. Commit to main.
+5. Wait for GitHub Pages deploy.
+6. On HP Chrome normal:
+   - clear site data for boyhcblackowl-coder.github.io
+   - open https://boyhcblackowl-coder.github.io/INSPIRE-2.0/
+7. Confirm text at bottom:
+   INSPIRE PWA WRAPPER V2 · REDIRECT MODE
+8. It should redirect top-level to Apps Script after ~0.9 seconds.
+9. Test BEFORE Add to Home Screen.
